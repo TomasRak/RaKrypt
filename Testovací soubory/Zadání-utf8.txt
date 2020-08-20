@@ -1,0 +1,4 @@
+7.// Program pro šifrování a dešifrování zpráv
+Jednoduchý program, který zvládne zašifrovat a dešifrovat libovolnou zprávu, kterou bude možnost zadat z klávesnice nebo přečíst z textového souboru. Bude podporováno nekolik jednoduchých šifer, jako například Caesarova šifra, Vigenerova šifra, Vigeneruv autokláv, Vernamova šifra, transpoziční šifra, nejaké jiné substituční, afinní a blokové šifry.
+Po spuštení program načte nastavení podstatných parametrů z INI-souboru ve formátu XML.
+Program vytváří logovací soubor, do kterého zaznamenává klíčové situace (např. rozhodnutí).

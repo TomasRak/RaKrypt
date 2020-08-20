@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="RaKrypt_DMP.exe" version="1.0.0.1" publicKeyToken="c395834276a7f71b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RaKrypt_DMP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="RaKrypt_DMP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RaKrypt_DMP.exe" size="20480">
+      <assemblyIdentity name="RaKrypt_DMP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+xEedbfk6X18T6jmmVcs62Ws5VnCFV2rCleShpPfp7g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="RaKrypt_DMP.exe.config" size="1276">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zVhSTZwsJzQfOMcRljqLPP/Q+LU5DqmnIFEtRV0NFnY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9JKCLC5\Tomikir" issuerKeyHash="a5ced55569a467031cdcf9ce01ecd892fcb16d3c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZeSvc7Qv2pOgj9qQVWxwBfWZjS/e+KtaU50VOYjeU1g=</DigestValue></Reference></SignedInfo><SignatureValue>q0CSPCfJlG7KSEwFuQzD8WAmtgZIBS6GwYehzjHFSsX/tg4U7m4jkdXavXUPP84znmE8UqqC2S7KIz645FVJp3v7m8lgtP2W3+6JBBbMHBQk4GkK+CoM/RYYbSHwnfJw7HnZQliIR0tuWoA9WMjDnpn4Z+JM0X/6qsGJ69TNnUc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vws0FUI3+xHGkmldUzcKy5HuHe0psDNlJalqR2hNYeuthCgIp3uIJHmPj2zRPB3KGPay2dF3c/CLwvUjBwZuOxLJY5EPwvHdedIBUKfamoexnjtbU3pS587+pcxqA7vz1HI3RccMqSQC7Iwf2TDb2XxafZhR1CTRRqyR3xqvAg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5853de8839159d535aabf8de2f8d99f505706c5590da8fa093da2fb473afe465" Description="" Url=""><as:assemblyIdentity name="RaKrypt_DMP.exe" version="1.0.0.1" publicKeyToken="c395834276a7f71b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9JKCLC5\Tomikir</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>UOh2rtCo6seh9oGUI6jmUtpBtMxxMsRki2nO5Qj1w5E=</DigestValue></Reference></SignedInfo><SignatureValue>tUo/xQ3XPf2x0vwtutUdRgaaJTyt11ImhHFBGGj9/qVmjgf7hiH7/fNT+VGWCePHWCKZEu6Hlhcm+Z6jVUOVtDvljfcCSJQDckPDv5Nx8S+tJTnqpc5FuBae6j/uGYRSlnArBldf1zNzC/wY3/AucLJ5cJ6/N+dglISf9/zYPQo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vws0FUI3+xHGkmldUzcKy5HuHe0psDNlJalqR2hNYeuthCgIp3uIJHmPj2zRPB3KGPay2dF3c/CLwvUjBwZuOxLJY5EPwvHdedIBUKfamoexnjtbU3pS587+pcxqA7vz1HI3RccMqSQC7Iwf2TDb2XxafZhR1CTRRqyR3xqvAg0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQYznKF9/gzbhNogKAsGGC4jANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtADkASgBLAEMATABDADUAXABUAG8AbQBpAGsAaQByMB4XDTIwMDEzMTE2NDE1MFoXDTIxMDEzMDIyNDE1MFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQA5AEoASwBDAEwAQwA1AFwAVABvAG0AaQBrAGkAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAvws0FUI3+xHGkmldUzcKy5HuHe0psDNlJalqR2hNYeuthCgIp3uIJHmPj2zRPB3KGPay2dF3c/CLwvUjBwZuOxLJY5EPwvHdedIBUKfamoexnjtbU3pS587+pcxqA7vz1HI3RccMqSQC7Iwf2TDb2XxafZhR1CTRRqyR3xqvAg0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQAdax1+zMWsMF33Ahqdmwh4Rue62bTgWtG5R1/+yCnEqCpm3wnbRkAbWdecKRfkXXB4iBnwOxZKRmcqeJXLzxQAuXANCPPQs5+6Fri8952nJ6qZ0PuRaRdLDxY4eUqn24O32zJsLclaL82DwRGqKgRIekFTTTXhO1f/F+JRNp/1dQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

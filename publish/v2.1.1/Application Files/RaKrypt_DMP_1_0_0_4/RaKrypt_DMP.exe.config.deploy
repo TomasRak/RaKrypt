@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="RaKrypt_DMP.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+    </startup>
+    <userSettings>
+        <RaKrypt_DMP.Properties.Settings>
+            <setting name="encrypt" serializeAs="String">
+                <value>False</value>
+            </setting>
+            <setting name="key" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="key2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="customPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="customEncExt" serializeAs="String">
+                <value>_RaKrypted</value>
+            </setting>
+            <setting name="customDecExt" serializeAs="String">
+                <value>_DeRaKrypted</value>
+            </setting>
+            <setting name="customPathChB" serializeAs="String">
+                <value>False</value>
+            </setting>
+        </RaKrypt_DMP.Properties.Settings>
+    </userSettings>
+</configuration>

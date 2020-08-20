@@ -1,0 +1,6 @@
+TentoTextový soubor je určen pro otestování funkčnosti
+šifrovacího programu RaKrypt. 322 ?!?
+
+Tento program je vyvíjen jako maturitní práce Tomáše Raka.
+
+Tomáš Rak!!!

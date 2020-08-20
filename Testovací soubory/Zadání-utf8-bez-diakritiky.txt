@@ -1,0 +1,4 @@
+7.// Program pro sifrovani a desifrovani zprav
+Jednoduchy program, ktery zvladne zasifrovat a desifrovat libovolnou zpravu, kterou bude moznost zadat z klavesnice nebo precist z textoveho souboru. Bude podporovano nekolik jednoduchych sifer, jako napriklad Caesarova sifra, Vigenerova sifra, Vigeneruv autoklav, Vernamova sifra, transpozicni sifra, nejake jine substitucni, afinni a blokove sifry.
+Po spusteni program nacte nastaveni podstatnych parametru z INI-souboru ve formatu XML.
+Program vytvari logovaci soubor, do ktereho zaznamenava klicove situace (napr. rozhodnuti).
