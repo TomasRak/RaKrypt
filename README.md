@@ -16,3 +16,6 @@ There are multiple folders
 - RaKrypt_DMP - the main folder which has all the code, debug and logging files.
 - Testovací soubory - the testing .txt files i used to test the program with
 - publish - the .exe instalation files used to instal the app on the OS.
+
+# Screenshot of the program
+![DMP-finalni vzhled programu](https://user-images.githubusercontent.com/69902498/91719919-6deb9980-eb96-11ea-840d-30def3311aad.png)
